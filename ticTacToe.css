@@ -1,0 +1,23 @@
+h1 {
+  font-family: gothic;
+  text-align: center;
+}
+
+.box {
+  outline: black solid 1px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#board {
+  width: 300px;
+  margin: 0px auto;
+  outline: snow solid 10px;
+}
+
+#board:after {
+  content: "";
+  clear: both;
+  display: block;
+}
